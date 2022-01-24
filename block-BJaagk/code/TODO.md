@@ -75,3 +75,4 @@ hello.user = 'Sam'; // valid or invalid
 9. What is higher order function explain with an example.
 
 10. Explain what is callback function. Why you can pass a function inside a function?
+done
