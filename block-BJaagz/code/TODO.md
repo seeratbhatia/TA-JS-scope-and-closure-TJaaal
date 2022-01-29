@@ -21,6 +21,7 @@ forEach(['Sam', 'Jon', 'Arya'], (name, i, arr) =>
 ```js
 function map() {
   // Your code goes here
+  function
 }
 
 map(['Sam', 'Jon', 'Arya'], (name) => name + name); // ['SamSam', 'JonJon', 'AryaArya']
