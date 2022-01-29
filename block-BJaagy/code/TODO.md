@@ -9,7 +9,7 @@
 Have `map` return a new array filled with values that are the result of the 'callback' function on each element of the input array.
 
 ```js
-// Your code goes here
+// function  map()
 
 // Test Your Code
 function multiplyByTwo(n) {
