@@ -86,4 +86,7 @@ addCache(100); // 110 (callback should not be called)
 addCache(1); // 11
 
 addCache('foo'); // {12: 22, 100: 110, 1: 11}
+
+
+k
 ```
