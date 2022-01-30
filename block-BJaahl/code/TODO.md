@@ -59,3 +59,4 @@ logThreeTimes(); // log message "Hello Arya" (2)
 logThreeTimes(); // log message "Hello Arya" (3)
 log(); // return undefinde (can't be called)
 ```
+l
