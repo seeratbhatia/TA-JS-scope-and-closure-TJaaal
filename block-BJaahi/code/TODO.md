@@ -59,12 +59,23 @@ function sayHello(name) {
 
 let message = sayHello(username);
 var nextMessage = sayHello('Test');
-```
 
-<!-- Answer -->
+// declaration 
+var username = undefined;
+let number;
+function sayHello(name) {
+  return `hello ${name}` ;
+}
+let message;
+var nextMessage = undefined;
 
-```js
-// Your code goes here
+// execution 
+console.log(username, numbers);
+username = 'Arya';
+number = 21;
+message = sayHello(username);
+nextMessage = sayHello(`Test);
+
 ```
 
 3.
@@ -80,12 +91,22 @@ let sayHello = function (name) {
 
 let message = sayHello(username);
 var nextMessage = sayHello('Test');
-```
 
-<!-- Answer -->
+// declaration
+let number;
+let sayHello;
+let message;
+var nextMessage = undefined;
 
-```js
-// Your code goes here
+//execution 
+console.log(username, numbers);
+username = 'Arya';
+number = 21;
+sayHello = function (name) {
+  return `Hello ${name}`;
+};
+message = sayHello(username);
+nextMessage = sayHello('Test');
 ```
 
 4.
@@ -102,27 +123,45 @@ let sayHello = function (name) {
 };
 
 var nextMessage = sayHello('Test');
-```
 
-<!-- Answer -->
+// declartion
+let username;
+let number;
+let message;
+let sayhello;
+var nextMessage - undefined;
 
-```js
-// Your code goes here
-```
+// execution
+
+username = 'Arya';
+console.log(username, numbers);
+
+number = 21;
+message = sayHello(username);
+
+sayHello = function (name) {
+  return `Hello ${name}`;
+};
+nextMessage = sayHello(`Test`);
 
 5.
 
-```js
+``js
 console.log(name);
 console.log(age);
 var name = 'Lydia';
 let age = 21;
-```
 
-<!-- Answer -->
+//declaration 
+var name = undefined;
+let age;
 
-```js
-// Your code goes here
+// execution 
+console.log(name);
+console.log(age);
+name = 'Lydia';
+age = 21;
+
 ```
 
 6.
@@ -136,13 +175,21 @@ function sayHi(name) {
 }
 
 sayHi();
+//declaration 
+  function sayHi(name) {
+  var name = 'Lydia';
+  let age;  
+
+  // execution
+  console.log(name);
+  console.log(age);
+   name = 'Lydia';
+   age = 21;
+}
+
+sayHi();
 ```
 
-<!-- Answer -->
-
-```js
-// Your code goes here
-```
 
 7.
 
@@ -154,14 +201,18 @@ function sayHi(name) {
   var name = 'Lydia';
   let age = 21;
 }
+//declaration
+function sayHi(name) {
+var name = undefined;
+let age;
+
+// execution 
+  console.log(name);
+  console.log(age);
+  name = 'Lydia';
+  age = 21;
+
 ```
-
-<!-- Answer -->
-
-```js
-// Your code goes here
-```
-
 8.
 
 ```js
@@ -172,13 +223,9 @@ let sayHi = function sayHi(name) {
   var name = 'Lydia';
   let age = 21;
 };
+// this code will not work
 ```
 
-<!-- Answer -->
-
-```js
-// Your code goes here
-```
 
 9.
 
@@ -187,12 +234,18 @@ let num1 = 21;
 console.log(sum);
 var sum = num1 + num2;
 let num2 = 30;
-```
 
-<!-- Answer -->
+// declaration 
+let num1;
+var sum = undefined;
+let num2;
 
-```js
-// Your code goes here
+// execution
+num1 = 21;
+console.log(sum);
+sum = num1 + num2;
+num2 = 30;
+
 ```
 
 10.
@@ -211,33 +264,53 @@ function addAgian(a, b) {
 let num2 = 200;
 
 let sum = add(num1, num2, 4, 5, 6);
+
+// declaration 
+
+num1 = 21;
+
+sum2 = addAgain(num1, num2, 4, 5, 6);
+
+add = (a, b, c, d, e) => {
+  return a + b + c + d + e;
+};
+function addAgian(a, b) {
+  return a + b;
+}
+num2 = 200;
+
+sum = add(num1, num2, 4, 5, 6);
 ```
 
-<!-- Answer -->
-
-```js
-// Your code goes here
-```
 
 11.
 
 ```js
+
 function test(a) {
   let num1 = 21;
   return add(a, num1);
 }
-
 let sum = test(100);
 
 let add = (a, b) => {
   return a + b;
 };
-```
 
-<!-- Answer -->
+// declaration 
+function test(a) {
+  let num1 = 21;
+  return add(a, num1);
+}
+let sum;
+let add;
 
-```js
-// Your code goes here
+// declaration 
+
+sum = test(100);
+add = (a, b) => {
+  return a + b;
+}
 ```
 
 12.
@@ -253,11 +326,20 @@ let sum = test(100);
 function add(a, b) {
   return a + b;
 }
+
+// declaration 
+function test(a) {
+  let num1 = 21;
+  return add(a, num1);
+}
+
+function add(a, b) {
+  return a + b;
+}
+let sum;
+
+// execution 
+sum = test(100);
+
 ```
 
-<!-- Answer -->
-
-```js
-// Your code goes here
-```
-n
